@@ -14,7 +14,6 @@ logging.basicConfig(
     force=True
 )
 logger = logging.getLogger(__name__)
-
 logger.info("Initializing weather MCP server...")
 
 server = Server("weather")
